@@ -8,5 +8,38 @@
     <artifactId>trading-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    
+    <modules>
+        <module>../tradingconfig</module>
+        <module>../tradingdal</module>
+        <module>../tradingdeploy</module>
+        <module>../tradingweb</module>
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.familyteam.trading</groupId>
+                <artifactId>trading-config</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.familyteam.trading</groupId>
+                <artifactId>trading-dal</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.familyteam.trading</groupId>
+                <artifactId>trading-deploy</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.familyteam.trading</groupId>
+                <artifactId>trading-web</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>
