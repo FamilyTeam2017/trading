@@ -19,6 +19,7 @@
         <module>../trading-dal</module>
         <module>../trading-deploy</module>
         <module>../trading-web</module>
+        <module>../trading-core</module>
     </modules>
 
     <dependencyManagement>
@@ -44,6 +45,12 @@
             <dependency>
                 <groupId>com.familyteam.trading</groupId>
                 <artifactId>trading-web</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.familyteam.trading</groupId>
+                <artifactId>trading-core</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
