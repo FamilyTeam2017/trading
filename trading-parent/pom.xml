@@ -15,10 +15,10 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>../tradingconfig</module>
-        <module>../tradingdal</module>
-        <module>../tradingdeploy</module>
-        <module>../tradingweb</module>
+        <module>../trading-config</module>
+        <module>../trading-dal</module>
+        <module>../trading-deploy</module>
+        <module>../trading-web</module>
     </modules>
 
     <dependencyManagement>
