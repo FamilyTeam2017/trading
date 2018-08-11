@@ -1,4 +1,4 @@
-package com.sbs.trading.dal.entity.order;
+package com.familyteam.trading.dal.entity.order;
 
 import lombok.Data;
 
